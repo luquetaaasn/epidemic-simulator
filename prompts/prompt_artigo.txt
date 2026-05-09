@@ -1,0 +1,26 @@
+Escreva um artigo científico em português descrevendo uma aplicação web que simula a propagação de doenças infecciosas utilizando o modelo epidemiológico SIR.
+
+O projeto foi desenvolvido utilizando:
+* Python
+* Flask (backend)
+* HTML e CSS (frontend)
+* Matplotlib para geração de gráficos
+
+O artigo deve ser escrito em formato acadêmico e conter as seguintes seções:
+
+1. Resumo
+2. Introdução
+3. Modelo SIR (explicação teórica)
+4. Metodologia / Implementação
+   * explicação do Flask
+   * funcionamento da interface web
+   * simulação computacional
+   * geração de gráficos
+5. Resultados
+   * comportamento das curvas S, I e R
+6. Conclusão
+
+Requisitos:
+* Linguagem formal acadêmica
+* Clareza e organização
+* Não ser muito longo, mas completo o suficiente para avaliação universitária

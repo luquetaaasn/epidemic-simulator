@@ -1,0 +1,28 @@
+Crie uma aplicação web completa em Python usando Flask que simule o espalhamento de uma doença infecciosa utilizando o modelo epidemiológico SIR.
+
+Requisitos:
+
+* Usar Flask
+* Criar uma interface HTML moderna
+* Permitir que o usuário altere:
+
+  * população
+  * taxa de infecção
+  * taxa de recuperação
+  * dias de simulação
+* Exibir:
+
+  * pessoas suscetíveis
+  * pessoas infectadas
+  * pessoas recuperadas
+* Gerar gráficos usando matplotlib
+* Organizar os arquivos do projeto profissionalmente
+* Incluir comentários explicando o código
+* Incluir instruções para executar localmente
+
+Retorne todos os arquivos separadamente:
+
+* app.py
+* templates/index.html
+* static/style.css
+* requirements.txt
