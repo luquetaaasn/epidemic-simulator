@@ -57,7 +57,7 @@ $$
 ![Interface](screenshots/tela-inicial.png)
 
 ### Resultado da simulação
-![Gráfico](screenshots/grafico.png)
+![Gráfico](screenshots/resultado.png)
 
 ---
 
