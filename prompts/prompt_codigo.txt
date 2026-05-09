@@ -1,3 +1,4 @@
+Prompt enviado ao ChatGPT:
 Crie uma aplicação web completa em Python usando Flask que simule o espalhamento de uma doença infecciosa utilizando o modelo epidemiológico SIR.
 
 Requisitos:
