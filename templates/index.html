@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Epidemiológico SIR</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    
+
+    <div class="container">
+
+        <h1>🦠 Simulador Epidemiológico SIR</h1>
+
+        <form method="POST">
+
+            <div class="form-group">
+                <label>População</label>
+                <input
+                    type="number"
+                    name="population"
+                    value="{{ population }}"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label>Taxa de Infecção</label>
+                <input
+                    type="number"
+                    step="0.01"
+                    name="infection_rate"
+                    value="{{ beta }}"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label>Taxa de Recuperação</label>
+                <input
+                    type="number"
+                    step="0.01"
+                    name="recovery_rate"
+                    value="{{ gamma }}"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label>Dias de Simulação</label>
+                <input
+                    type="number"
+                    name="days"
+                    value="{{ days }}"
+                    required
+                >
+            </div>
+
+            <button type="submit">
+                Simular
+            </button>
+
+        </form>
+
+        {% if graph %}
+
+        <div class="results">
+
+            <div class="cards">
+
+                <div class="card susceptible">
+                    <h2>Suscetíveis</h2>
+                    <p>{{ susceptible }}</p>
+                </div>
+
+                <div class="card infected">
+                    <h2>Infectados</h2>
+                    <p>{{ infected }}</p>
+                </div>
+
+                <div class="card recovered">
+                    <h2>Recuperados</h2>
+                    <p>{{ recovered }}</p>
+                </div>
+
+            </div>
+
+            <div class="graph-container">
+                <img src="data:image/png;base64,{{ graph }}" alt="Gráfico SIR">
+            </div>
+
+        </div>
+
+        {% endif %}
+
+    </div>
+
+</body>
+</html>
