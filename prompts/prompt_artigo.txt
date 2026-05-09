@@ -1,4 +1,4 @@
-Prommpt enviao ao ChatGPT:
+Prommpt enviado ao ChatGPT:
 Escreva um artigo científico em português descrevendo uma aplicação web que simula a propagação de doenças infecciosas utilizando o modelo epidemiológico SIR.
 
 O projeto foi desenvolvido utilizando:
