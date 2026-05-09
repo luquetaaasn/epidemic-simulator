@@ -13,6 +13,9 @@ A ferramenta permite visualizar a evolução de uma epidemia de forma interativa
 - HTML5 + CSS3
 - Matplotlib
 
+## 🤖 Ferramentas de apoio
+- ChatGPT (auxílio na estruturação do código e documentação)
+
 ---
 
 ## 📊 Modelo SIR
